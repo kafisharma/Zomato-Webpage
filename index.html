@@ -6,10 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Zomato Clone</title>
-  
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -19,12 +19,112 @@
       <div class="navbar__brand">
         <img src="assets/logo.png" alt="logo" class="navbar__logo">
       </div>
-
       <div class="navbar__nav__items">
-        <button class="nav__item">Order Food</button>
+        <button class="button__primary">Order Food</button>
       </div>
     </nav>
   </header>
-</body>
+  <main class="container">
+    <!-- It is the hero part -->
+    <section class="hero__container">
+      <div class="hero__image__container">
+        <img src="assets/hero.jpg" alt="hero" class="hero__image">
+      </div>
+      <div class="hero__description">
+        <h1 class="hero__text"> Order food from your favourite restaurants near you.</h1>
+        <botton class="button__primary">Order Now</botton>
+      </div>
+    </section>
+    <br>
+    <br>
+    <br>
 
-</html>
+    <!-- Explore menu -->
+    <section class="explore__menu__container">
+      <h1 class="explore__menu__text">Explore our menu</h1>
+      <div class="explore__menu__gradient__bg"></div>
+      <!-- Burger -->
+      <div class="explore__menu__lists">
+        <div class="food__card">
+          <div class="food__card__image__container">
+            <img src="assets/burger.jpg" alt="burger" class="food__image">
+          </div>
+          <div class="food__card__description">
+            <h3 class="food__title">Burger</h3>
+            <p>Burger King,Mcdonalds,Burger Place <span style="color:#DB3A56;">+3</span></p>
+          </div>
+        </div>
+        <!-- pizza -->
+        <div class="food__card" id="pizza__card">
+          <div class="food__card__image__container">
+            <img src="assets/pizza.jpg" alt="pizza" class="food__image">
+          </div>
+          <div class="food__card__description">
+            <h3 class="food__title">pizza</h3>
+            <p>Pizza Hut,Domino's Pizza<span style="color:#DB3A56;">+3</span></p>
+          </div>
+        </div>
+        <!-- icecream -->
+        <div class="food__card">
+          <div class="food__card__image__container">
+            <img src="assets/iceCream.jpg" alt="icecream" class="food__image">
+          </div>
+          <div class="food__card__description">
+            <h3 class="food__title">icecream</h3>
+            <p>Baskin Robins,Ibaco <span style="color:#DB3A56;">+3</span></p>
+          </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- this is resort -->
+    <!-- <main class="resort_image_container"> -->
+    <section class="resort__container">
+
+      <div class="resort_image_container">
+        <div class="item " id="item-1">
+          <img src="assets/restaurant.jpg" alt="resort1" height="100px" width="100px">
+        </div>
+        <div class="item " id="item-2">
+          <img src="assets/restaurant1.jpg" alt="resort2" height="100px" width="100px">
+        </div>
+        <div class="item " id="item-3">
+          <img src="assets/restaurant2.jpg" alt="resort3" height="100px" width="100px">
+        </div>
+        <div class="item " id="item-4">
+          <img src="assets/restaurant4.jpg" alt="resort4" height="100px" width="100px">
+        </div>
+      </div>
+      <div class="resort__description">
+        <h1 class="resort__text">Order from 100s of restaurants</h1>
+      </div>
+    </section>
+    <div class="updates">
+      <h1>Stay Updated</h1>
+      <input type="text" value="">
+      <button class="button__primary">Get Updates</button>
+    </div>
+    <br>
+    <br>
+    <div class="finale__discription">
+      <p class="quots">When a man's stomach is full it makes no difference whether he is rich or poor</p>
+      <img src="assets/restaurant4.jpg" class="new__photo" height="300px" width="900px">
+    </div>
+    <footer>
+      <div class="final__nav">
+        <img src="assets/logo.png">
+        <!-- <h1 class="logo">Zomato</h1>  -->
+        <p>
+        <ol class="list" >
+          <l1>Pricing</l1>
+          <l1>Term and conditions</l1>
+          <l1>Partnership</l1>
+          <l1>Career</l1>
+          <l1>Contact</l1>
+        </ol>
+        </p>
+      </div>
+    </footer>
+  </main>
