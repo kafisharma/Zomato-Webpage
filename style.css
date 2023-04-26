@@ -7,7 +7,6 @@ body {
     font-family: 'Merriweather', serif;
     background-color: #ebf2ff;
 }
-
 .navbar {
     display: flex;
     align-items: center;
@@ -53,7 +52,6 @@ body {
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
-
     }
 }
 
@@ -71,8 +69,6 @@ body {
     padding: 20px;
     font-size: 20px;
 }
-
-
 .container {
     max-width: 100%;
     padding: 20px;
@@ -89,7 +85,6 @@ body {
     border-radius: 8px;
     box-shadow: 0 25px 50px -12px rgb(0 0 0 / 25%);
 }
-
 
 .hero__description {
     width: 100%;
@@ -218,15 +213,15 @@ body {
     height: 344px;
     display: flex; 
     flex-direction: row-reverse;
-
 } 
+
 .item{
     margin: 10px;
     padding: 3px;
     /* width: 100%; */
     display: flex;
 }
-#item-1{
+/* #item-1{
    align-self: flex-start;
 }
 #item-2{
@@ -237,7 +232,7 @@ body {
 }
 #item-4{
      align-self: flex-end;
-}
+} */
 
 .resort__text {
     font-size: 50px;
@@ -245,31 +240,9 @@ body {
 
 .updates {
     align-items: center;
-    padding-left: 500px;
-    
+    padding-left: 500px;  
 } 
 
-.resort_image1 {
-    /* text-align: start; */
-
-    width: 10%;
-}
-
-.resort_image2 {
-    /* text-align: right; */
-
-    width: 10%;
-}
-
-.resort_image3 {
-    /* text-align:left ; */
-    width: 10%;
-}
-
-.resort_image4 {
-    /* text-align: end; */
-    width: 10%;
-}
 .finale__discription{
     margin-left: 100px;
 }
@@ -280,13 +253,15 @@ body {
 .final__nav{
     background-color: #ff522fb3;
     text-align: center; 
-    width: 1000px;
-    
+    width: 100%;
+    margin-top: 0px;
+    height: 400px;
 }
+
 .list{
      text-align: start;
      width: 100px; 
      margin-left: 800px;
-     margin-bottom: 30px;
-     margin-top: 0px;
+     padding-bottom: 200px; 
+    
 }
